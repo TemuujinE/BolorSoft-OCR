@@ -1,0 +1,6 @@
+*.zip
+en_sample/
+news.csv
+TextRecognitionDataGenerator/
+trdg/
+static/
