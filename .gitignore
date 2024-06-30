@@ -1,4 +1,6 @@
 *.zip
+*.pth
+data.mdb
 en_sample/
 news.csv
 TextRecognitionDataGenerator/

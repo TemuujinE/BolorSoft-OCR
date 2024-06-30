@@ -1,0 +1,27 @@
+
+#print(os.walk(root + '/'))
+print(root)
+print(opt)
+print(os.listdir(root + '/'))
+for root, dirs, files in os.walk(root + '/'):
+    for name in files:
+        print(os.path.join(root, name))
+    for name in dirs:
+        print(os.path.join(root, name))
+print('aaaaaa\n\n')
+
+# Training data
+python deep-text-recognition-benchmark/create_lmdb_dataset.py deep-text-recognition-benchmark/mn_recognition_data/train deep-text-recognition-benchmark/mn_recognition_data/train_labels.txt deep-text-recognition-benchmark/lmbd_train
+
+# Eval data
+python deep-text-recognition-benchmark/create_lmdb_dataset.py deep-text-recognition-benchmark/mn_recognition_data/val deep-text-recognition-benchmark/mn_recognition_data/val_labels.txt deep-text-recognition-benchmark/lmbd_eval
+
+python train.py --train_data "D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_train" --valid_data "D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_train" --select_data "/" --batch_ratio 1 --Transformation None --FeatureExtraction VGG --SequenceModeling BiLSTM --Prediction CTC --batch_size 12 --data_filtering_off --workers 0 --batch_max_length 80 --num_iter 50 --valInterval 10 --saved_model CRNN-PyTorchCTC.pth
+
+python demo.py --Transformation None --FeatureExtraction VGG --SequenceModeling BiLSTM --Prediction CTC --image_folder "D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output_val" --saved_model "D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\saved_models\None-VGG-BiLSTM-CTC-Seed1111\best_accuracy.pth"
+
+python test.py --eval_data "D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output_val" --Transformation None --FeatureExtraction VGG --SequenceModeling BiLSTM --Prediction CTC --saved_model "D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\saved_models\None-VGG-BiLSTM-CTC-Seed1111\best_accuracy.pth" --batch_max_length 70 --workers 0 --batch_size 8 --data_filtering_off
+
+python train.py --train_data "D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_train" --valid_data "D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_train" --select_data "/" --batch_ratio 1.0 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction Attn --batch_size 12 --data_filtering_off --workers 0 --batch_max_length 80 --num_iter 10 --valInterval 5 --saved_model TPS-ResNet-BiLSTM-Attn.pth
+
+python "deep-text-recognition-benchmark/train.py" --train_conf train_parameters_conf.yaml

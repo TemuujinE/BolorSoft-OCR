@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------
+dataset_root: D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output	 dataset: /
+sub-directory:	/.	 num samples: 9999
+num total samples of /: 9999 x 1.0 (total_data_usage_ratio) = 9999
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output	 dataset: /
+sub-directory:	/.	 num samples: 9999
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output_train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output_train	 dataset: /
+sub-directory:	/.	 num samples: 59999
+num total samples of /: 59999 x 1.0 (total_data_usage_ratio) = 59999
+num samples of / per batch: 12 x 1.0 (batch_ratio) = 12
+--------------------------------------------------------------------------------
+Total_batch_size: 12 = 12
+--------------------------------------------------------------------------------
+dataset_root:    D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output_train	 dataset: /
+sub-directory:	/.	 num samples: 59999
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output_train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output_train	 dataset: /
+sub-directory:	/.	 num samples: 59999
+num total samples of /: 59999 x 1.0 (total_data_usage_ratio) = 59999
+num samples of / per batch: 12 x 1.0 (batch_ratio) = 12
+--------------------------------------------------------------------------------
+Total_batch_size: 12 = 12
+--------------------------------------------------------------------------------
+dataset_root:    D:\Ground\BolorSoft-OCR\deep-text-recognition-benchmark\lmbd_output_train	 dataset: /
+sub-directory:	/.	 num samples: 59999
+--------------------------------------------------------------------------------
