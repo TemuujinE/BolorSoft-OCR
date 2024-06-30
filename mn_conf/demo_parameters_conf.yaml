@@ -1,5 +1,5 @@
 image_folder: "D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/"
-saved_model: "D:/Ground/BolorSoft-OCR/saved_models/eduge_news_uls_tur_words_cyrillic_g2_v2/best_accuracy.pth"
+saved_model: "D:/Ground/BolorSoft-OCR/saved_models/eduge_news_uls_tur_words_cyrillic_g2_v3_single_word/best_accuracy.pth"
 batch_max_length: 80
 imgH: 32
 imgW: 100

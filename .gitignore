@@ -14,3 +14,4 @@ mn_recognition_data/train_single_word/
 mn_recognition_data/eval/
 mn_recognition_data/eval_single_word/
 pretrained_models/
+fonts/mn/

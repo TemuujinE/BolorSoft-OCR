@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+dataset_root: D:\Ground\BolorSoft-OCR\lmdb_data\lmbd_train_single_word
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: D:\Ground\BolorSoft-OCR\lmbd_data\lmbd_train_single_word
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    D:\Ground\BolorSoft-OCR\lmbd_data\lmbd_train_single_word	 dataset: /
+sub-directory:	/.	 num samples: 100000
+num total samples of /: 100000 x 1.0 (total_data_usage_ratio) = 100000
+num samples of / per batch: 42 x 1.0 (batch_ratio) = 42
+--------------------------------------------------------------------------------
+Total_batch_size: 42 = 42
+--------------------------------------------------------------------------------
+dataset_root:    D:\Ground\BolorSoft-OCR\lmbd_data\lmbd_train_single_word	 dataset: /
+sub-directory:	/.	 num samples: 100000
+--------------------------------------------------------------------------------

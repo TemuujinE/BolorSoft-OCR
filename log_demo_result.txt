@@ -11,3 +11,16 @@ D:/Ground/BolorSoft-OCR/deep-text-recognition-benchmark/mn_recognition_data/val_
 D:/Ground/BolorSoft-OCR/deep-text-recognition-benchmark/mn_recognition_data/val_small/img7.jpg	хэтрүүлэхгүйн            	0.2514
 D:/Ground/BolorSoft-OCR/deep-text-recognition-benchmark/mn_recognition_data/val_small/img8.jpg	хүүрнэх                  	0.9356
 D:/Ground/BolorSoft-OCR/deep-text-recognition-benchmark/mn_recognition_data/val_small/img9.jpg	өөгшүүлсэн               	0.4182
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img0.jpg	гялтгар                  	0.9485
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img1.jpg	зулгааснаар              	0.7022
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img2.jpg	өрорн                    	0.7749
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img3.jpg	тусаамжаас               	0.0550
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img4.jpg	тээвэрлэгчийг            	0.3540
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img5.jpg	хайгуулаа                	0.8976
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img6.jpg	хийсж                    	0.5821
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img7.jpg	хэтрүүлэхгүйн            	0.5443
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img8.jpg	хүүрнэх                  	0.9879
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img9.jpg	өөгшүүлсэн               	0.5024
