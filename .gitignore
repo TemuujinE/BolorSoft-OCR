@@ -10,4 +10,7 @@ static/
 mn_recognition_data/img/
 mn_recognition_data/val/
 mn_recognition_data/train/
+mn_recognition_data/train_single_word/
+mn_recognition_data/eval/
+mn_recognition_data/eval_single_word/
 pretrained_models/

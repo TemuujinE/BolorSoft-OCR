@@ -1,0 +1,15 @@
+output_dir: "./mn_recognition_data/train_single_word"
+dict: "text_data/eduge_uls_tur_unique_words.txt"
+font_dir: "TextRecognitionDataGenerator/trdg/fonts/mn"
+random: true
+thread_count: 12
+language: "mn"
+count: 50000
+length: 1
+blur: 3
+skew_angle: 5
+random_blur: true 
+random_skew: true
+format: 128
+#background: 1
+background: 3
