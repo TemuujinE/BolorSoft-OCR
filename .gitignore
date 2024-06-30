@@ -2,6 +2,10 @@
 en_sample/
 news.csv
 TextRecognitionDataGenerator/
+deep-text-recognition-benchmark/
 trdg/
 static/
 mn_recognition_data/img/
+mn_recognition_data/val/
+mn_recognition_data/train/
+pretrained_models/
