@@ -20,14 +20,14 @@ Bolorsoft Hiring Process - Practical Exam (Started: 2024/06/29 afternoon, Finish
 
 ### Өгөгдлийн мэдээлэл
 ### Training
-|№|Цагаан дэвсгэртэй|Эсэн шидийн зурагтай дэвсгэртэй|
-|A|30000|30000|
-|B|50000|50000|
+| № | Цагаан дэвсгэртэй| Эсэн шидийн зурагтай дэвсгэртэй |
+| A | 30000            | 30000                           |
+| B | 50000            | 50000                           |
 
 ### Test
-|№|Цагаан дэвсгэртэй|Эсэн шидийн зурагтай дэвсгэртэй|
-|A|300|300|
-|B|1500|1500|
+| № | Цагаан дэвсгэртэй| Эсэн шидийн зурагтай дэвсгэртэй |
+| A | 300              | 300                             |
+| B | 1500             | 1500                            |
 
 Үгийн сан: [eduge](https://github.com/tugstugi/mongolian-nlp/blob/master/datasets/eduge.csv.gz) дотроос дан ганц улс төр ангилалыг ашигласан.
 
@@ -46,6 +46,7 @@ Bolorsoft Hiring Process - Practical Exam (Started: 2024/06/29 afternoon, Finish
         | тесо         | үржъ         | 0.0009 False           |
 
     1.2. Нийт 150 epoch сургасны [дараагаар](saved_models\eduge_news_uls_tur_words_cyrillic_g2_v2\log_train.txt):
+    
         | Ground Truth   | Prediction     | Confidence Score & T/F |
         |----------------|----------------|------------------------|
         | цонжинболдог   | цонкинболдог   | 0.0295 False            | 
@@ -54,7 +55,7 @@ Bolorsoft Hiring Process - Practical Exam (Started: 2024/06/29 afternoon, Finish
         | хэсгийнхэнд    | хэсгийнхэнд    | 0.2898 True            |
         | дарангуйллыг   | аатугиө        | 0.0000 False           |
 
-        [Test Accuracy (A)](result\Ground_BolorSoft-OCR_deep-text-recognition-benchmark_saved_models_eduge_news_uls_tur_words_cyrillic_g2_v2_best_accuracy.pth\log_evaluation.txt): 15.500
+    [Test Accuracy (A)](result\Ground_BolorSoft-OCR_deep-text-recognition-benchmark_saved_models_eduge_news_uls_tur_words_cyrillic_g2_v2_best_accuracy.pth\log_evaluation.txt): 15.500
 
 
 2. Дээрх моделийг сургалтын `B` хэсгийг ашиглан 1000 epoch сургасны [дараагаар](saved_models\eduge_news_uls_tur_words_cyrillic_g2_v3_single_word\log_train.txt)
