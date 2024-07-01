@@ -16,7 +16,7 @@ Bolorsoft Hiring Process - Practical Exam (Started: 2024/06/29 afternoon, Finish
 ## Synthetic data
 Өгөгдөл зохиомлоор үүсгэхийн тулд [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator)-г ашигласан. Уг tool-г ашиглахад Монгол фонт хэрэгтэй тул [Noto Sans фонт](https://fonts.google.com/noto/specimen/Noto+Sans?noto.query=mongolian&noto.lang=mn_Cyrl&noto.script=Cyrl) татаж ашигласан.
 
-![Alt text](trivial\data_ex.png)
+![Alt text](./trivial/data_ex.png)
 
 ### Өгөгдлийн мэдээлэл
 ### Training
@@ -77,11 +77,11 @@ Bolorsoft Hiring Process - Practical Exam (Started: 2024/06/29 afternoon, Finish
 ## Tesseract
 Цагаан дэвсгэртэй үед tesseract ашиглан зургаас Монгол тэмдэгтүүдийг ялгасан.
 
-![Alt text](mn_recognition_data\simple_ocr_data\py_tess_bbox\img_1.png)
+![Alt text](./mn_recognition_data\simple_ocr_data\py_tess_bbox\img_1.png)
 
 Дараагаах нь тэмдэгт бүрд танилт хийсэн.
 
-![Alt text](trivial\output.png)
+![Alt text](./trivial\output.png)
 
 # Notebooks
 1. [clean_eduge_news](clean_eduge_news.ipynb) - Eduge news цэвэрлэж, ашиглах үгсийн сан бэлтгэсэн
