@@ -62,7 +62,7 @@ Bolorsoft Hiring Process - Practical Exam (Started: 2024/06/29 afternoon, Finish
     [Test Accuracy (A)](result\Ground_BolorSoft-OCR_deep-text-recognition-benchmark_saved_models_eduge_news_uls_tur_words_cyrillic_g2_v2_best_accuracy.pth\log_evaluation.txt): 15.500
 
 
-2. Дээрх моделийг сургалтын `B` хэсгийг ашиглан 1000 epoch сургасны [дараагаар](saved_models\eduge_news_uls_tur_words_cyrillic_g2_v3_single_word\log_train.txt)
+2. Дээрх моделийг сургалтын `B` хэсгийг ашиглан 1000 epoch finetune хийсний [дараагаар](saved_models\eduge_news_uls_tur_words_cyrillic_g2_v3_single_word\log_train.txt)
 
 | Ground Truth   | Prediction     | Confidence Score & T/F |
 |----------------|----------------|------------------------|
@@ -82,11 +82,11 @@ Bolorsoft Hiring Process - Practical Exam (Started: 2024/06/29 afternoon, Finish
 ## Tesseract
 Цагаан дэвсгэртэй үед tesseract ашиглан зургаас Монгол тэмдэгтүүдийг ялгасан.
 
-![Alt text](./mn_recognition_data\simple_ocr_data\py_tess_bbox\img_1.png)
+![Alt text](./mn_recognition_data/simple_ocr_data/py_tess_bbox/img_1.png)
 
 Дараагаах нь тэмдэгт бүрд танилт хийсэн.
 
-![Alt text](./trivial\output.png)
+![Alt text](./trivial/output.png)
 
 # Notebooks
 1. [clean_eduge_news](clean_eduge_news.ipynb) - Eduge news цэвэрлэж, ашиглах үгсийн сан бэлтгэсэн
