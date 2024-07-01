@@ -1,0 +1,3 @@
+dataset_root:    D:/Ground/BolorSoft-OCR/deep-text-recognition-benchmark/lmbd_eval	 dataset: /
+sub-directory:	/.	 num samples: 600
+15.500

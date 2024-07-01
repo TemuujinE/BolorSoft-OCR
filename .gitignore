@@ -1,5 +1,11 @@
 *.zip
-*.pth
+saved_models/TPS-ResNet-BiLSTM-Attn-Seed1111/best_accuracy.pth
+saved_models/TPS-ResNet-BiLSTM-Attn-Seed1111/best_norm_ED.pth
+saved_models/PreTrained-FuckedUpNone-VGG-BiLSTM-CTC-Seed1111/best_accuracy.pth
+saved_models/PreTrained-FuckedUpNone-VGG-BiLSTM-CTC-Seed1111/best_norm_ED.pth
+pretrained_models/cyrillic.pth
+pretrained_models/TPS-ResNet-BiLSTM-Attn.pth
+pretrained_models/CRNN-PyTorchCTC.pth
 data.mdb
 en_sample/
 news.csv
@@ -15,5 +21,4 @@ mn_recognition_data/eval/
 mn_recognition_data/eval_single_word/
 mn_recognition_data/train_multiple_word/
 mn_recognition_data/eval_multiple_word/
-pretrained_models/
-fonts/mn/
+TextRecognitionDataGenerator/trdg/fonts/mn/

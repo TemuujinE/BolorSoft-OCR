@@ -1,0 +1,6 @@
+dataset_root:    D:/Ground/BolorSoft-OCR/lmbd_data/lmbd_eval	 dataset: /
+sub-directory:	/.	 num samples: 600
+20.333
+dataset_root:    D:/Ground/BolorSoft-OCR/lmbd_data/lmbd_eval_single_word	 dataset: /
+sub-directory:	/.	 num samples: 3000
+77.867
