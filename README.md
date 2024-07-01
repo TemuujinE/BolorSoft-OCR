@@ -1,5 +1,5 @@
 # BolorSoft-OCR
-2024/06/26 Bolorsoft Hiring Process - Practical Exam (Start: 2024/06/26 afternoon, Finished: 2024/06/27 early in the morning)
+Bolorsoft Hiring Process - Practical Exam (Started: 2024/06/29 afternoon, Finished: 2024/06/30 early in the morning)
 
 Үндсэн даалгавар бол Монгол хэлний OCR 7 хоногийн хугацаанд хийх байсан. Би дараах төлөвлөгөөний дагуу уг даалгаврыг гүйцэтгэсэн:
 - [x] Assume Ideal Condition: Жигд гэрэлтүүлэгтэй, цагаан дэвсгэртэй, урд нь саад хийсэн зүйл байхгүй гэх мэт
