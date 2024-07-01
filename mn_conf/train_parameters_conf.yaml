@@ -1,12 +1,12 @@
-exp_name: "eduge_news_uls_tur_words_cyrillic_g2_v3_single_word"
-train_data: "D:\\Ground\\BolorSoft-OCR\\lmbd_data\\lmbd_train_single_word"
-valid_data: "D:\\Ground\\BolorSoft-OCR\\lmbd_data\\lmbd_train_single_word"
+exp_name: "eduge_news_uls_tur_words_cyrillic_g2_v4_multiple_word"
+train_data: "D:\\Ground\\BolorSoft-OCR\\lmbd_data\\lmbd_train_multiple_word"
+valid_data: "D:\\Ground\\BolorSoft-OCR\\lmbd_data\\lmbd_train_multiple_word"
 manualSeed: 1111
 workers: 0
 batch_size: 42
-num_iter: 1000
+num_iter: 1500
 valInterval: 50
-saved_model: "D:\\Ground\\BolorSoft-OCR\\saved_models\\eduge_news_uls_tur_words_cyrillic_g2_v2\\best_accuracy.pth"
+saved_model: "D:\\Ground\\BolorSoft-OCR\\saved_models\\eduge_news_uls_tur_words_cyrillic_g2_v3_single_word\\best_accuracy.pth"
 #saved_model: "None"
 FT: false
 adam: false
@@ -19,7 +19,7 @@ baiduCTC: false
 select_data: "/"
 batch_ratio: "1"
 total_data_usage_ratio: "1.0"
-batch_max_length: 64
+batch_max_length: 80
 imgH: 32
 imgW: 100
 rgb: false

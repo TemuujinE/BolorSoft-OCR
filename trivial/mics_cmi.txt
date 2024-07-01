@@ -1,9 +1,9 @@
 # Data prepare
 # Training data prepare
-python deep-text-recognition-benchmark/create_lmdb_dataset.py mn_recognition_data/train mn_recognition_data/train_labels.txt lmbd_data/lmbd_train
+python deep-text-recognition-benchmark/create_lmdb_dataset.py mn_recognition_data/train_multiple_word mn_recognition_data/train_multiple_word_labels.txt lmbd_data/lmbd_train_multiple_word
 
 # Eval data prepare
-python deep-text-recognition-benchmark/create_lmdb_dataset.py mn_recognition_data/eval_single_word mn_recognition_data/eval_single_word_labels.txt lmbd_data/lmbd_eval_single_word
+python deep-text-recognition-benchmark/create_lmdb_dataset.py mn_recognition_data/eval_multiple_word mn_recognition_data/eval_multiple_word_labels.txt lmbd_data/lmbd_eval_multiple_word
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Training and Finetuning
