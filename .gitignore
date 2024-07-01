@@ -9,9 +9,6 @@ pretrained_models/CRNN-PyTorchCTC.pth
 data.mdb
 en_sample/
 news.csv
-TextRecognitionDataGenerator/
-deep-text-recognition-benchmark/
-trdg/
 static/
 mn_recognition_data/img/
 mn_recognition_data/val/
@@ -21,4 +18,3 @@ mn_recognition_data/eval/
 mn_recognition_data/eval_single_word/
 mn_recognition_data/train_multiple_word/
 mn_recognition_data/eval_multiple_word/
-TextRecognitionDataGenerator/trdg/fonts/mn/
