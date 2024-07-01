@@ -18,3 +18,6 @@ mn_recognition_data/eval/
 mn_recognition_data/eval_single_word/
 mn_recognition_data/train_multiple_word/
 mn_recognition_data/eval_multiple_word/
+
+TextRecognitionDataGenerator/
+deep-text-recognition-benchmark/
