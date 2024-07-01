@@ -24,3 +24,68 @@ D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img6.jpg	хийсж       
 D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img7.jpg	хэтрүүлэхгүйн            	0.5443
 D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img8.jpg	хүүрнэх                  	0.9879
 D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img9.jpg	өөгшүүлсэн               	0.5024
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img0.jpg	гялтгар                  	0.9485
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img1.jpg	зулгааснаар              	0.7022
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img2.jpg	өрорн                    	0.7749
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img3.jpg	тусаамжаас               	0.0550
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img4.jpg	тээвэрлэгчийг            	0.3540
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img5.jpg	хайгуулаа                	0.8976
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img6.jpg	хийсж                    	0.5821
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img7.jpg	хэтрүүлэхгүйн            	0.5443
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img8.jpg	хүүрнэх                  	0.9879
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img9.jpg	өөгшүүлсэн               	0.5024
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img319.jpg	сургуулийн               	0.5180
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img322.jpg	суугааг                  	0.9980
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img327.jpg	сэргээхтэй               	0.2882
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/Балай ирдэгээ орчмынхоо_4.jpg	балай ирдэгэ орчиынхо    	0.0064
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/Начин 2550_2.jpg	начин 2550               	0.4555
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/Хасалтаар форумуудын мөхлөөс_3.jpg	хаөт өрнйн үлэн          	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/асууддуудтай_5.jpg	асууддуудтай             	0.6462
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/босгоор дэмбэрэлтэйгээр Олборлолтборлуулалт Британи_4.jpg	ши  н                    	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/гашуудаж Хабаровск 13528 Яллагдагчийн жинхэлчихжээ_2.jpg	хах ерт ш ндо хат        	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/дурсгалтай бооцоон_1.jpg	дурсгатхай овчон         	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/системтэй_1.jpg	системтэй                	0.9162
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/уйлалтай баримжаагаа эхэлье БИД дефолт_3.jpg	хнхөринлхлны днэн        	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/хэрэглэгчтэй азаргалах Баго авирна биерхүү_0.jpg	хэламлнчй нэнн           	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/хөөрцөглөхийг Альбумин хэтрэхийг хуралдаанар нүүрстөрөгч_5.jpg	шача л он                	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/үнэлгээчин ойшоосонгүй_0.jpg	нэлгэжин ойшосангүй      	0.0000
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img3.jpg	тусаамжаас               	0.0550
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img4.jpg	тээвэрлэгчийг            	0.3540
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img5.jpg	хайгуулаа                	0.8976
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img7.jpg	хэтрүүлэхгүйн            	0.5443
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img8.jpg	хүүрнэх                  	0.9879
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img9.jpg	өөгшүүлсэн               	0.5024
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img100.jpg	гялтгар                  	0.9485
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img112.jpg	зулгааснаар              	0.7022
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img319.jpg	сургуулийн               	0.5180
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img322.jpg	суугааг                  	0.9980
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img327.jpg	сэргээхтэй               	0.2882
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img_0.jpg	тэмүүжин                 	0.9975
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/img_1.jpg	тэмүүжин                 	0.9951
+D:/Ground/BolorSoft-OCR/mn_recognition_data/val_small/Хавар_4.jpg	хавар                    	0.9777
+--------------------------------------------------------------------------------
+image_path               	predicted_labels         	confidence score
+--------------------------------------------------------------------------------
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/0.png	хэглээний матамалтих     	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/1.png	бологоөт шытгалт         	0.0036
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/Балай ирдэгээ орчмынхоо_4.jpg	балай ирдэгэ орчиынхо    	0.0064
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/Начин 2550_2.jpg	начин 2550               	0.4555
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/Хасалтаар форумуудын мөхлөөс_3.jpg	хаөт өрнйн үлэн          	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/асууддуудтай_5.jpg	асууддуудтай             	0.6462
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/босгоор дэмбэрэлтэйгээр Олборлолтборлуулалт Британи_4.jpg	ши  н                    	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/гашуудаж Хабаровск 13528 Яллагдагчийн жинхэлчихжээ_2.jpg	хах ерт ш ндо хат        	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/дурсгалтай бооцоон_1.jpg	дурсгатхай овчон         	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/системтэй_1.jpg	системтэй                	0.9162
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/уйлалтай баримжаагаа эхэлье БИД дефолт_3.jpg	хнхөринлхлны днэн        	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/хэрэглэгчтэй азаргалах Баго авирна биерхүү_0.jpg	хэламлнчй нэнн           	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/хөөрцөглөхийг Альбумин хэтрэхийг хуралдаанар нүүрстөрөгч_5.jpg	шача л он                	0.0000
+D:/Ground/BolorSoft-OCR/mn_recognition_data/demo_multiple_word/үнэлгээчин ойшоосонгүй_0.jpg	нэлгэжин ойшосангүй      	0.0000

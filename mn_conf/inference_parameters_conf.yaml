@@ -1,5 +1,5 @@
-eval_data: "D:/Ground/BolorSoft-OCR/lmbd_data/lmbd_eval_multiple_word"
-saved_model: "D:/Ground/BolorSoft-OCR/saved_models/eduge_news_uls_tur_words_cyrillic_g2_v4_multiple_word/best_accuracy.pth"
+eval_data: "D:/Ground/BolorSoft-OCR/lmbd_data/lmbd_eval_single_word"
+saved_model: "D:/Ground/BolorSoft-OCR/saved_models/eduge_news_uls_tur_words_cyrillic_g2_v3_single_word/best_accuracy.pth"
 workers: 0
 batch_size: 12
 batch_max_length: 80
