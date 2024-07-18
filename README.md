@@ -38,7 +38,7 @@ Bolorsoft Hiring Process - Practical Exam
 Үгийн сан: [eduge](https://github.com/tugstugi/mongolian-nlp/blob/master/datasets/eduge.csv.gz) дотроос дан ганц улс төр ангилалыг ашигласан.
 
 ## Recognition
-[Text Recognition](deep-text-recognition-benchmark) repo-г ашиглан крилл үсэг ялгах модел finetune хийсэн. 
+[Text Recognition](https://github.com/clovaai/deep-text-recognition-benchmark) repo-г ашиглан крилл үсэг ялгах модел finetune хийсэн. 
 1. [cyrillic_g2.pth](https://drive.google.com/uc?id=1PIywV9_WZqNNfUIk6-bs598fX7OZTcbY) модел дээр сургалтын `A` хэсгийг ашиглаж туршиж үзсэн. 
 
     1.1. Нийт 10 epoch сургасны үр дүнд дараах байдалтай [байсан](./saved_models/eduge_news_uls_tur_words_cyrillic_g2_v1/log_train.txt):
