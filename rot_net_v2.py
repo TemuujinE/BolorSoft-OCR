@@ -148,3 +148,109 @@ class RotNet(nn.Module):
 # Example usage
 model = RotNet(num_classes=2, in_channels=1)
 print(model)
+
+
+import numpy as np
+
+def compute_iou(box1, box2):
+    """
+    Compute Intersection over Union (IoU) of two bounding boxes.
+
+    Args:
+    - box1, box2: Lists or arrays of format [x_min, y_min, x_max, y_max]
+
+    Returns:
+    - IoU value (float)
+    """
+    # Determine the coordinates of the intersection rectangle
+    x_min = max(box1[0], box2[0])
+    y_min = max(box1[1], box2[1])
+    x_max = min(box1[2], box2[2])
+    y_max = min(box1[3], box2[3])
+
+    # Compute the area of intersection rectangle
+    inter_area = max(0, x_max - x_min + 1) * max(0, y_max - y_min + 1)
+
+    # Compute the area of both the prediction and ground truth rectangles
+    box1_area = (box1[2] - box1[0] + 1) * (box1[3] - box1[1] + 1)
+    box2_area = (box2[2] - box2[0] + 1) * (box2[3] - box2[1] + 1)
+
+    # Compute the IoU
+    iou = inter_area / float(box1_area + box2_area - inter_area)
+
+    return iou
+
+def are_boxes_horizontally_aligned(boxes):
+    """
+    Check if multiple bounding boxes are horizontally aligned (on the same line).
+
+    Args:
+    - boxes: List of bounding boxes [x_min, y_min, x_max, y_max]
+
+    Returns:
+    - True if boxes are horizontally aligned, False otherwise
+    """
+    y_mins = [box[1] for box in boxes]
+    y_maxs = [box[3] for box in boxes]
+
+    # Check if the vertical overlap exists by comparing the min and max y-values
+    min_y_min = min(y_mins)
+    max_y_max = max(y_maxs)
+    
+    # All boxes should have overlapping y range if horizontally aligned
+    for box in boxes:
+        if box[1] > max_y_max or box[3] < min_y_min:
+            return False
+    
+    return True
+
+def evaluate_predictions(pred_boxes, gt_boxes, iou_threshold=0.5):
+    """
+    Evaluate predicted bounding boxes against ground truth boxes.
+
+    Args:
+    - pred_boxes: List of predicted bounding boxes [x_min, y_min, x_max, y_max]
+    - gt_boxes: List of ground truth bounding boxes [x_min, y_min, x_max, y_max]
+    - iou_threshold: IoU threshold to consider a prediction correct
+
+    Returns:
+    - results: Dictionary with 'correct' and 'incorrect' predictions
+    """
+    results = {'correct': 0, 'incorrect': 0}
+    
+    for pred_box in pred_boxes:
+        overlapping_gt_boxes = []
+        for gt_box in gt_boxes:
+            iou = compute_iou(pred_box, gt_box)
+            if iou >= iou_threshold:
+                overlapping_gt_boxes.append(gt_box)
+        
+        # Check alignment of overlapping ground truth boxes
+        if len(overlapping_gt_boxes) > 0:
+            if are_boxes_horizontally_aligned(overlapping_gt_boxes):
+                results['correct'] += 1
+            else:
+                results['incorrect'] += 1
+        else:
+            results['incorrect'] += 1
+    
+    return results
+
+# Example usage
+predicted_boxes = [
+    [100, 100, 200, 150],
+    [250, 200, 350, 250],
+    [150, 300, 300, 350]
+]
+
+ground_truth_boxes = [
+    [110, 110, 190, 140],  # Horizontally aligned with the first predicted box
+    [160, 120, 180, 145],  # Horizontally aligned with the first predicted box
+    [255, 205, 345, 245],  # Correctly predicted
+    [160, 310, 290, 340]   # Correctly predicted
+]
+
+results = evaluate_predictions(predicted_boxes, ground_truth_boxes)
+print("Correct Predictions:", results['correct'])
+print("Incorrect Predictions:", results['incorrect'])
+
